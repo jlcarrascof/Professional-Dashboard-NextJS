@@ -1,7 +1,7 @@
-import React from 'react'
-
-export default function LayoutAuth() {
+export default function LayoutAuth({ children }: { children: React.ReactNode }) {
   return (
-    <div>LayoutAuth</div>
+    <div>LayoutAuth
+        {children}
+    </div>
   )
 }
