@@ -1,5 +1,3 @@
-/* Original del video */
-/*
 import { authMiddleware } from "@clerk/nextjs";
 
 // See https://clerk.com/docs/references/nextjs/auth-middleware
@@ -11,10 +9,10 @@ export const config = {
     "/((?!.+.[w]+$|_next).*)", "/", "/(api|trpc)(.*)"
   ],
 };
-*/
 
 /* Sugerencia de IA */
 
+/*
 import { authMiddleware } from "@clerk/nextjs";
 
 export default authMiddleware({
@@ -29,3 +27,4 @@ export const config = {
     "/(api|trpc)(.*)", // Rutas que comienzan con /api o /trpc
   ],
 };
+*/
