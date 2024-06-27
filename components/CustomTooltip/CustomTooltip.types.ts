@@ -1,9 +1,3 @@
-import React from 'react'
-
-function CustomTooltip.types() {
-  return (
-    <div>CustomTooltip.types</div>
-  )
+export type CustomTooltipProps = {
+  content: string;
 }
-
-export default CustomTooltip.types
