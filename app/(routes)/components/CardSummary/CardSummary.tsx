@@ -1,5 +1,6 @@
 import { CustomIcon } from "@/components/CustomIcon";
 import { CardSummaryProps } from "./CardSummary.types";
+import { CustomTooltip } from "@/components/CustomTooltip";
 
 export function CardSummary(props: CardSummaryProps) {
   const { icon: Icon, total, average, title, tooltipText } = props;
@@ -10,6 +11,9 @@ export function CardSummary(props: CardSummaryProps) {
             <CustomIcon icon={Icon} />
             {title}
         </div>
+        <CustomTooltip
+          content={tooltipText}
+        />
     </div>
   )
 }

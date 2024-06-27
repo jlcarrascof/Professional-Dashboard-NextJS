@@ -18,7 +18,7 @@ export function CustomTooltip(props: CustomTooltipProps) {
                 <Info strokeWidth={1} className="w-5 h-5" />
             </TooltipTrigger>
             <TooltipContent>
-                <p>Add to library</p>
+                <p>{content}</p>
             </TooltipContent>
         </Tooltip>
     </TooltipProvider>
